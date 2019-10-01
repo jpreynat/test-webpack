@@ -1,0 +1,19 @@
+{
+  "name": "test-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Johan Preynat <johan.preynat@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "webpack": "5.0.0-alpha.28",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "build": "rm -rf dist && yarn webpack --config webpack.config.js",
+    "log": "grep -Eoh \"case\\\"block\\\".{0,200}\" ./dist/main.js"
+  }
+}
