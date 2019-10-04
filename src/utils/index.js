@@ -1,1 +1,1 @@
-export { switchCaller, switcher } from './utils';
+export { switchCaller } from './utils';

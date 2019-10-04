@@ -1,4 +1,4 @@
-import { switchCaller, switcher } from './utils';
+import { switchCaller } from './utils';
 
 const obj = {
     kind: 'block'

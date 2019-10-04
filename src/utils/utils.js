@@ -46,4 +46,5 @@ function handleInline(json) {
     });
 }
 
-export { switchCaller, switcher };
+export { switchCaller };
+export default switcher;
